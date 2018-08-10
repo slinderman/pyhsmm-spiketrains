@@ -1,0 +1,9 @@
+future
+numpy
+cython
+scipy
+matplotlib
+brewer2mpl
+networkx
+git+https://github.com/mattjj/pyhsmm
+git+https://github.com/HIPS/hips-lib

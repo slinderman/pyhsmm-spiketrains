@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 import numpy as np
 
 from Cython.Build import cythonize
@@ -12,4 +12,5 @@ setup(
     url='http://www.github.com/slinderman/pyhsmm-spiketrains',
     ext_modules=cythonize('**/*.pyx'),
     include_dirs=[np.get_include(),],
+    packages=['pyhsmm_spiketrains']
 )
